@@ -42,6 +42,7 @@ function kalkulator() {
                     if (jawab.toLowerCase == 'y') {
                         kalkulator();
                     } else {
+                        console.log('---------------- Kalkulator Close :) ----------------');
                         rl.close()
                     }
                 })
